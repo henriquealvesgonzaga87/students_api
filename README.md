@@ -77,22 +77,22 @@ This is a RESTful API built with Node.js, Express, Sequelize, and MariaDB. The A
 Authentication
 - POST /tokens/ - Generate a JWT token.
 
-# Users
+### Users
 - POST /users/ - Create a new user (requires authentication).
 - PUT /users/ - Update the authenticated user (requires authentication).
 - DELETE /users/ - Delete the authenticated user (requires authentication).
 
-# Students
+### Students
 - GET /students/ - List all students.
 - POST /students/ - Create a new student (requires authentication).
 - GET /students/:id - Get a specific student by ID.
 - PUT /students/:id - Update a student by ID (requires authentication).
 - DELETE /students/:id - Delete a student by ID (requires authentication).
 
-# Photos
+### Photos
 - POST /photos/ - Upload a photo for a student (requires authentication).
 
-# Technologies Used
+### Technologies Used
 - Node.js: JavaScript runtime
 - Express: Web framework
 - Sequelize: ORM for database management
