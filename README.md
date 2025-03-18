@@ -13,24 +13,24 @@ This is a RESTful API built with Node.js, Express, Sequelize, and MariaDB. The A
 
 ## Project Structure
 
-├── .editorconfig # Editor configuration
-├── .env # Environment variables (not included in the repository)
-├── .env-example # Example environment variables
-├── .gitignore # Git ignore file
-├── .sequelizerc # Sequelize configuration
-├── app.js # Main application file
-├── eslint.config.mjs # ESLint configuration
-├── nodemon.json # Nodemon configuration
-├── package.json # Project dependencies and scripts
-├── server.js # Server entry point
-├── src/
-│ ├── config/ # Configuration files
-│ ├── controllers/ # API controllers
-│ ├── database/ # Database setup, migrations, and seeds
-│ ├── middlewares/ # Middleware functions
-| ├── models/ # Sequelize models
-│ ├── routes/ # API routes
-├── uploads/ # Uploaded files
+├── .editorconfig # Editor configuration<br>
+├── .env # Environment variables (not included in the repository)<br>
+├── .env-example # Example environment variables<br>
+├── .gitignore # Git ignore file<br>
+├── .sequelizerc # Sequelize configuration<br>
+├── app.js # Main application file<br>
+├── eslint.config.mjs # ESLint configuration<br>
+├── nodemon.json # Nodemon configuration<br>
+├── package.json # Project dependencies and scripts<br>
+├── server.js # Server entry point<br>
+├── src/<br>
+│ ├── config/ # Configuration files<br>
+│ ├── controllers/ # API controllers<br>
+│ ├── database/ # Database setup, migrations, and seeds<br>
+│ ├── middlewares/ # Middleware functions<br>
+| ├── models/ # Sequelize models<br>
+│ ├── routes/ # API routes<br>
+├── uploads/ # Uploaded files<br>
 
 ## Installation
 
@@ -74,7 +74,7 @@ This is a RESTful API built with Node.js, Express, Sequelize, and MariaDB. The A
 
 ## API Endpoints
 
-Authentication
+### Authentication
 - POST /tokens/ - Generate a JWT token.
 
 ### Users
