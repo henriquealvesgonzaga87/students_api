@@ -13,7 +13,7 @@ This is a RESTful API built with Node.js, Express, Sequelize, and MariaDB. The A
 
 ## Project Structure
 
-├── .editorconfig # Editor configuration
+├── .editorconfig # Editor configuration<br>
 ├── .env # Environment variables (not included in the repository)
 ├── .env-example # Example environment variables
 ├── .gitignore # Git ignore file
