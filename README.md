@@ -74,7 +74,7 @@ This is a RESTful API built with Node.js, Express, Sequelize, and MariaDB. The A
 
 ## API Endpoints
 
-Authentication
+### Authentication
 - POST /tokens/ - Generate a JWT token.
 
 ### Users
